@@ -1,7 +1,7 @@
 const coding = ["js", "rb", "py", "java", "c++"]
 //call back functn and foreach - in callback funtion there is no name - direct - function (){}
 coding.forEach( function (val) {
-    //console.log(val);
+    // console.log(val);
 })
 
 coding.forEach( (item) => {
@@ -10,13 +10,13 @@ coding.forEach( (item) => {
 } )
 
 function printMe(item){
-   // console.log(item);
+    //console.log(item);
     
 }
 coding.forEach(printMe)
 
 coding.forEach( (item, index, arr) => {
-    console.log(item, index, arr);
+   console.log(item, index, arr);
     
 } )
 
